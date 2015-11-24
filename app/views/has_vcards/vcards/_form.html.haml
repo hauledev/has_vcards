@@ -15,11 +15,11 @@
   = vcard.fields_for :address do |address|
     .row-fluid
       .span12= address.input :extended_address
-    .row-fluids
-      .span12= address.input :street_address
-    .row-fluid
-      .span12= address.input :post_office_box
-    .row-fluid
-      .span12= address.input :postal_code, :wrapper_html => {:class => 'col1'}
-    .row-fluid
-      .span12= address.input :locality, :wrapper_html => {:class => 'col2'}
+    -#.row-fluids
+    -#  .span12= address.input :street_address
+    -#.row-fluid
+    -#  .span12= address.input :post_office_box
+    -#.row-fluid
+    -#  .span12= address.input :postal_code, :wrapper_html => {:class => 'col1'}
+    -#.row-fluid
+    -#  .span12= address.input :locality, :wrapper_html => {:class => 'col2'}

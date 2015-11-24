@@ -21,7 +21,7 @@ en:
         honorific_suffix: Suffix
         address_type:     Type
         # Include address attributes as we delegate
-        post_office_box:  Post Office Box Extended address
+        post_office_box:  Post Office Box
         extended_address: Extended address
         street_address:   Street
         locality:         Locality
@@ -33,7 +33,7 @@ en:
         mobile_number:    Mobile
         fax_number:       Fax
       has_vcards/address:
-        post_office_box:  Post Office Box Post Office Box
+        post_office_box:  Post Office Box
         extended_address: Extended address
         extended_address: Adresszusatz
         street_address:   Strasse

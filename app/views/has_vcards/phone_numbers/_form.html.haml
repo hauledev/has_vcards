@@ -1,6 +1,6 @@
 .nested-form-item
   .control-group.string.optional
-    %label.select.optional.control-label= item.select :phone_number_type, ['Tel. geschäft', 'Tel. privat', 'Handyfdfsfsdfsffsdf', 'Fax', 'E-Mail', 'Webseite']
+    %label.select.optional.control-label= item.select :phone_number_type, ['Tel. geschäft', 'Tel. privat', 'Handy', 'Fax', 'E-Mail', 'Webseite']
     .controls
       = item.text_field :number, :autocomplete => 'off', :class => 'string optional'
       = link_to content_tag(:i, '', :class => 'icon-trash delete-nested-form-item'), '#'

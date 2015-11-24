@@ -164,7 +164,7 @@ describe HasVcards::Vcard do
       it 'builds default contacts' do
         @vcard.contacts = []
         @vcard.contacts.build_defaults
-        expect(@vcard.contacts.map(&:phone_number_type)).to eql ['Tel. geschäft', 'Tel. privat', 'HandyHandyHandyHandyHandyHandy', 'E-Mail']
+        expect(@vcard.contacts.map(&:phone_number_type)).to eql ['Tel. geschäft', 'Tel. privat', 'Handy', 'E-Mail']
       end
 
       it 'can be run twice without duplicating default contacts' do
