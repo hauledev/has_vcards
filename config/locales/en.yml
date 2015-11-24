@@ -12,7 +12,7 @@ en:
 
     attributes:
       has_vcards/vcard:
-        full_name:        Name
+        full_name:        Tên công ty
         nickname:         Nickname
         family_name:      Family name
         give_name:        Given name
@@ -33,13 +33,13 @@ en:
         mobile_number:    Mobile
         fax_number:       Fax
       has_vcards/address:
-        post_office_box:  Post Office Box
+        post_office_box:  Số TK ngân hàng
         extended_address: Extended address
-        extended_address: Adresszusatz
-        street_address:   Strasse
-        locality:         Ort
+        extended_address: Địa chỉ
+        street_address:   Mã số thuế
+        locality:         Chi nhánh
         region:           Region
-        postal_code:      PLZ
+        postal_code:      Tên ngân hàng
         country_name:     Land
         address_type:     Art
       has_vcards/phone_number:
